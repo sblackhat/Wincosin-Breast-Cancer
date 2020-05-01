@@ -29,7 +29,7 @@ pause;
 architectures = {[2],[5],[10],[15],[20],[25], [30], [3 2],[4 3],[10 5]};
 %Set how the training set is distributed
 trainRatio = 0.65; % training
-valRatio = 0.2; % validation
+valRatio = 0.1; % validation
 testRatio = 0.25; % test
 %% ========== Part 3 : Running and checking the results for 1 input layer=========
 [optIter, values] = CheckArchitectures(architectures,X,y, iterations, ...
